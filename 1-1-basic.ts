@@ -42,7 +42,9 @@ wanjinyou = [1, 2, 3, 4, 5];
 wanjinyou = { name: "TypeScript", age: 1 };
 wanjinyou = function () {
     console.log("TypeScript");
-}
+};
 wanjinyou = null;
 wanjinyou = undefined;
 // any 类型可以是任意类型，怎么玩都行。但是在实际开发中，应该尽量避免使用 any 类型，因为 any 类型会破坏 TypeScript 的类型检查机制
+
+export {}

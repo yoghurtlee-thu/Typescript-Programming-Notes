@@ -35,6 +35,8 @@ const frozen_arr1: ReadonlyArray<number> = [1, 2, 3]; // 真正的常数组对�
 const frozen_arr2: readonly number[] = Object.freeze([1, 2, 3]); // 也可以这样创建
 
 // 类型断言
-let str = '1'; // 类型推导为 string
+let str = "1"; // 类型推导为 string
 // let num1 = str as number; // !这样是不行的
-let num1 = <number><any>str; // 1
+let num1 = <number>(<any>str); // 1
+
+export {}
